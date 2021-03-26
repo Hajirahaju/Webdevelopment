@@ -1,0 +1,38 @@
+{
+    box-sizing:border-box;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    background-color: rgba(27,26,16,0.15);
+    padding: 20px;
+    top: 0;
+
+}   
+header .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+header a{
+    text-decoration: none;
+    margin-right: 75px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.719);
+    font-family: Tahoma;
+}
+.banner{
+    width: 100%;
+    height:auto;
+    background-image: url("music.jpg");
+    color : (255,255,255)
+    font-size: 50px;
+}
